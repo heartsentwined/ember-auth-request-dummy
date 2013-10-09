@@ -1,6 +1,6 @@
 Em.onLoad 'Ember.Application', (application) ->
   application.initializer
-    name: 'ember-auth-request-dummy'
+    name: 'ember-auth.request.dummy'
     after: 'ember-auth'
 
     initialize: (container, app) ->
